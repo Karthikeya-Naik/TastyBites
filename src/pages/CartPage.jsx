@@ -4,7 +4,8 @@ import { useCart } from '../contexts/CartContext';
 import CartItem from '../components/CartItem';
 import { ShoppingBag, AlertCircle, Check, ArrowLeft, Trash2, Gift, Clock } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
+import item10 from '../assets/item10.png';
+import item4 from '../assets/item4.png';
 const CartPage = () => {
   const { cartItems, clearCart, updateQuantity } = useCart();
   const [isCheckingOut, setIsCheckingOut] = useState(false);
@@ -216,7 +217,7 @@ const CartPage = () => {
                     <div className="bg-white p-4 rounded-lg shadow-sm flex items-center space-x-3 border border-gray-100">
                       <div className="w-16 h-16 rounded-md overflow-hidden">
                         <img 
-                          src="https://images.unsplash.com/photo-1576777647209-e8733d7b851d?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3" 
+                          src={item4}
                           alt="Masala Fries" 
                           className="w-full h-full object-cover"
                         />
@@ -245,7 +246,7 @@ const CartPage = () => {
                     <div className="bg-white p-4 rounded-lg shadow-sm flex items-center space-x-3 border border-gray-100">
                       <div className="w-16 h-16 rounded-md overflow-hidden">
                         <img 
-                          src="https://images.unsplash.com/photo-1624781748172-7025afd53f7a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3" 
+                          src={item10}
                           alt="Chocolate Oreo Shake" 
                           className="w-full h-full object-cover"
                         />
