@@ -1,3 +1,15 @@
+import item1 from '../assets/item1.png';
+import item2 from '../assets/item2.png';
+import item3 from '../assets/item3.png';
+import item4 from '../assets/item4.png';
+import item5 from '../assets/item5.png';
+import item6 from '../assets/item6.png';
+import item7 from '../assets/item7.png';
+import item8 from '../assets/item8.png';
+import item9 from '../assets/item9.png';
+import item10 from '../assets/item10.png';
+import item11 from '../assets/item11.png';
+import item12 from '../assets/item12.png';
 const foodData = [
     {
       id: 1,
@@ -5,7 +17,7 @@ const foodData = [
       description: "Aromatic basmati rice layered with tender spiced meat, slow-cooked to perfection in the traditional Hyderabadi style.",
       price: 299,
       category: "biryani",
-      image: "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3",
+      image: item1,
       popular: true
     },
     {
@@ -14,7 +26,7 @@ const foodData = [
       description: "The perfect fusion pizza topped with creamy butter chicken, mozzarella cheese, and fresh cilantro.",
       price: 349,
       category: "pizza",
-      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1381&auto=format&fit=crop&ixlib=rb-4.0.3",
+      image: item2,
       popular: true
     },
     {
@@ -23,7 +35,7 @@ const foodData = [
       description: "Juicy beef patty with melted cheddar cheese, fresh lettuce, tomato, and our secret sauce.",
       price: 199,
       category: "burger",
-      image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1599&auto=format&fit=crop&ixlib=rb-4.0.3",
+      image: item3,
       popular: false
     },
     {
@@ -32,7 +44,7 @@ const foodData = [
       description: "Crispy golden fries tossed in our special Hyderabadi spice blend.",
       price: 149,
       category: "sides",
-      image: "https://images.unsplash.com/photo-1576777647209-e8733d7b851d?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3",
+      image: item4,
       popular: false
     },
     {
@@ -41,7 +53,7 @@ const foodData = [
       description: "Refreshing mango yogurt shake with a hint of cardamom.",
       price: 129,
       category: "beverages",
-      image: "https://images.pexels.com/photos/14509267/pexels-photo-14509267.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image: item5,
       popular: true
     },
     {
@@ -50,7 +62,7 @@ const foodData = [
       description: "Tandoori paneer chunks, bell peppers, and onions on a cheesy pizza base.",
       price: 299,
       category: "pizza",
-      image: "https://images.pexels.com/photos/2147491/pexels-photo-2147491.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image: item6,
       popular: false
     },
     {
@@ -59,7 +71,7 @@ const foodData = [
       description: "Spicy grilled chicken breast with peri-peri sauce, crisp lettuce, and cheese.",
       price: 229,
       category: "burger",
-      image: "https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?q=80&w=1415&auto=format&fit=crop&ixlib=rb-4.0.3",
+      image: item7,
       popular: true
     },
     {
@@ -68,7 +80,7 @@ const foodData = [
       description: "Fettuccine pasta in a rich garlic and mushroom cream sauce.",
       price: 269,
       category: "pasta",
-      image: "https://images.pexels.com/photos/31097757/pexels-photo-31097757/free-photo-of-creamy-mushroom-pasta-penne-with-parsley-garnish.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image: item8,
       popular: false
     },
     {
@@ -77,7 +89,7 @@ const foodData = [
       description: "Penne pasta in a fiery tomato sauce with garlic, chili flakes, and fresh basil.",
       price: 249,
       category: "pasta",
-      image: "https://images.unsplash.com/photo-1608897013039-887f21d8c804?q=80&w=1392&auto=format&fit=crop&ixlib=rb-4.0.3",
+      image: item9,
       popular: false
     },
     {
@@ -86,7 +98,7 @@ const foodData = [
       description: "Decadent chocolate milkshake blended with Oreo cookies and topped with whipped cream.",
       price: 159,
       category: "beverages",
-      image: "https://images.unsplash.com/photo-1541658016709-82535e94bc69?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: item10,
       popular: true
     },
     {
@@ -95,7 +107,7 @@ const foodData = [
       description: "Classic pizza topped with marinated tandoori chicken, bell peppers, and onions.",
       price: 329,
       category: "pizza",
-      image: "https://images.pexels.com/photos/5640024/pexels-photo-5640024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image: item11,
       popular: true
     },
     {
@@ -104,7 +116,7 @@ const foodData = [
       description: "Plant-based patty with fresh vegetables, cheese, and our special sauce.",
       price: 189,
       category: "burger",
-      image: "https://images.unsplash.com/photo-1520072959219-c595dc870360?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3",
+      image: item12,
       popular: false
     }
   ];

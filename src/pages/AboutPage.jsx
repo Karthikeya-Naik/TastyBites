@@ -3,6 +3,8 @@ import { Award, Clock, Home, Users, ChefHat, MapPin, Star, Utensils, TrendingUp 
 import { useState } from 'react';
 import join from '../assets/join.png';
 import commitment from '../assets/commitment.png';
+import resto from '../assets/resto.png';
+import passian from '../assets/passian.png';
 const AboutPage = () => {
   const [activeTab, setActiveTab] = useState('story');
   
@@ -215,7 +217,7 @@ const AboutPage = () => {
       <div className="relative overflow-hidden bg-[#1e293b] py-24">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+            src={resto}
             alt="Restaurant interior"
             className="h-full w-full object-cover opacity-20"
           />
@@ -310,7 +312,7 @@ const AboutPage = () => {
                 className="rounded-lg overflow-hidden shadow-2xl relative z-10"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1600335895229-6e75511892c8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                  src={passian}
                   alt="Restaurant kitchen"
                   className="w-full h-96 object-cover"
                 />

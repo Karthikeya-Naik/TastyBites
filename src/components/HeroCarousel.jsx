@@ -2,7 +2,9 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
+import hero1 from '../assets/hero1.png';
+import hero2 from '../assets/hero2.png';
+import hero3 from '../assets/hero3.png';
 const HeroCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   
@@ -10,21 +12,21 @@ const HeroCarousel = () => {
   const carouselImages = [
     {
       id: 1,
-      url: 'https://images.unsplash.com/photo-1589302168068-964664d93dc0?q=80&w=1974&auto=format&fit=crop',
+      url: hero1,
       alt: 'Authentic Hyderabadi Biryani served in traditional style',
       title: 'Authentic Hyderabadi Flavors',
       subtitle: 'Experience the royal taste of Hyderabad'
     },
     {
       id: 2,
-      url: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1920&auto=format&fit=crop',
+      url: hero2,
       alt: 'Delicious pizza with fresh toppings',
       title: 'Gourmet Pizza',
       subtitle: 'Hand-crafted with premium ingredients'
     },
     {
       id: 3,
-      url: 'https://images.unsplash.com/photo-1551782450-17144efb9c50?q=80&w=1920&auto=format&fit=crop',
+      url: hero3,
       alt: 'Juicy burger with fries',
       title: 'Signature Burgers',
       subtitle: 'Flame-grilled to perfection'
