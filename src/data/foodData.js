@@ -10,6 +10,7 @@ import item9 from '../assets/item9.png';
 import item10 from '../assets/item10.png';
 import item11 from '../assets/item11.png';
 import item12 from '../assets/item12.png';
+
 const foodData = [
     {
       id: 1,
