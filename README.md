@@ -3,7 +3,9 @@
 A modern food delivery web application built with **React**, featuring authentic Hyderabadi cuisine alongside popular favorites like pizza, burgers, and more. Experience seamless online food ordering with an elegant user interface and smooth animations.
 
 ### 📸 Live Preview
-![TastyBites Poster](src/assets/TastyBites.png)
+<p align="center">
+  <img src="src/assets/TastyBites.png" alt="TastyBites Poster" width="600"/>
+</p>
 > https://vision-tastybites.netlify.app/
 ---
 
