@@ -7,6 +7,7 @@ A modern food delivery web application built with **React**, featuring authentic
   <img src="src/assets/TastyBites.png" alt="TastyBites Poster" width="600"/>
 </p>
 > https://vision-tastybites.netlify.app/
+
 ---
 
 ## 🌟 Features
