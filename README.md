@@ -111,5 +111,5 @@ tastybites/
 - Lucide React for beautiful icons
 
 ---
-TastyBites
+## TastyBites
 **Bringing authentic flavors to your doorstep, one click at a time.**
